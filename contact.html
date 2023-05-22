@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>NUFC Fans Cork</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Newcastle United FC fan club based in Cork city, Ireland">
+    <meta name="keywords" content="NUFC Fans Cork, a club for Newcastle United FC fans based in Cork City, Ireland">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div>
+            <header>
+                <img class="logo" src="images/26741409.png" alt="logo">
+                <h1>NUFC Fans Cork</h1>
+                <nav>
+                    <a class="navbar" href="index.html">Home</a>
+                    <a class="navbar" href="news.html">News</a>
+                    <a class="navbar" href="vote.html">Vote</a>
+                    <a class="navbar" href="contact.html">Contact</a>
+                </nav>
+            </header>
+        </div>
+        <div id="contact_anchors">
+            <p>Contact us via the <a href="#contact_us">form</a> below, 
+                <a href="mailto:emailus@example.com">email</a> or contact us via 
+                <a href="#social_icons"> social media</a>.<br>
+                    Don't forget to join us on match days at on match day at 
+                <a href="https://mardyke.com/woolshed/sports/" target="_blank">The Woolshed Baa and Grill</a>,<br>
+                    we would love to see you there.
+            </p>
+            <img class="home_image" src="images/home_image.jpg" alt="Home Image">
+        </div>
+        <main id="contact_us">
+            <form method="get">
+                <h2>Contact Us</h2>
+                <label>
+                    Full Name:
+                    <input type="text" name="name" required>
+                </label>
+                <label>
+                    Email Address:
+                    <input type="email" name="email" required>
+                </label>
+                <label>
+                    Date Of Birth:
+                    <input type="date" name="date" required>
+                </label>
+                <label>
+                    Phone Number:
+                    <input type="tel" name="phone" pattern="[0-9]{3}[0-9]{7}" minlength="10" maxlength="10" required>
+                </label>
+                <label>
+                    Message:
+                    <textarea name="message" rows="4" required></textarea>
+                </label>
+                <button class="contact_us_button" type="submit">Submit</button>
+                <button class="contact_us_button" type="reset">Reset</button>
+            </form>
+        </main>
+        <div>
+            <footer>
+                <h2>Copyright &copy; 2023</h2>
+                <div id="social_icons" class="social_icons">
+                    <a href="https://facebook.com " target="blank" rel="noopener" 
+                      aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/" target="blank" rel="noopener" 
+                      aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram-square"></i></a>
+                    <a href="https://www.twitter.com/" target="blank" rel="noopener" 
+                      aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://www.youtube.com/" target="blank" rel="noopener" 
+                      aria-label="Visit our Youtube page (opens in a new tab)"><i class="fab fa-youtube"></i></a>
+                  </div>
+            </footer>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/a90370d8ae.js" crossorigin="anonymous"></script>
+</body>
+</html>
